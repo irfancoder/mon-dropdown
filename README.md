@@ -24,23 +24,6 @@ yarn add @irfanismail/mon-dropdown
 
 1. Table of Props
 
-label: { type: String, required: false },
-labelClass: { type: String, required: false },
-contentClass: { type: String, required: false, default: 'mon-dropdown-content' },
-enterActiveClass: { type: String, required: false, default: 'mon-dropdown-enter-active' },
-enterClass: { type: String, required: false, default: 'mon-dropdown-enter' },
-enterToClass: { type: String, required: false, default: 'mon-dropdown-enter-to' },
-leaveActiveClass: { type: String, required: false, default: 'mon-dropdown-leave-active' },
-leaveClass: { type: String, required: false, default: 'mon-dropdown-leave' },
-leaveToClass: { type: String, required: false, default: 'mon-dropdown-leave-to' },
-anchor: { type: String, required: false, default: 'left' },
-dropUp: { type: Boolean, required: false, default: false },
-persistent: { type: Boolean, required: false, default: false },
-openOnMount: { type: Boolean, required: false, default: false },
-disableClickAway: { type: Boolean, required: false, default: false },
-disableEsc: { type: Boolean, required: false, default: false }
-
-
 | Props                 | Type          | Default                       |
 | -------------         |-------------  | :-----------------:           |
 | label                 | string        |                               |
