@@ -1,12 +1,11 @@
 # mon-dropdown
 
-NOT READY FOR PRODUCTION
-
 MonDropdown a feature-rich dropdown Vue2 component. It focuses on bringing the best of Vue's features to achieve common &amp; advanced behavior patterns while giving you the freedom to style the component to your liking. Built-to-work with <a href="https://tailwindcss.com/">TailwindCSS</a>.
 
-<!-- ![mon-dropdown-gif](https://github.com/irfancoder/mon-dropdown/blob/master/asset/mon-dropdown.gif) -->
+![mon-dropdown-gif](https://github.com/irfancoder/mon-dropdown/blob/master/asset/mon-dropdown.gif)
 
-<!-- [Demo](https://jsfiddle.net/irfancoder/6rcuwbq0/289/) -->
+[Demo](https://jsfiddle.net/irfancoder/0L1o23s8/110/)
+
 <!-- GETTING STARTED -->
 ## Getting Started 
 
@@ -68,11 +67,12 @@ props:
 * openOnMount 
 
   <mon-dropdown [...props]>
-    <template #header="{ close }">...</template>
-    <template #custom="{ open, close }">...</template>
+    <template #trigger="{ toggle, open }">...</template>
+    <template #content="{ toggle, close }">...</template>
   </mon-dropdown>
   
 ```
+
 3. Lifecycle Hooks
 
 | Hooks                 | Type          |
@@ -82,31 +82,23 @@ props:
 | before-close          | function      |
 | after-close           | function      |
 
-<!-- Check the [Demo](https://jsfiddle.net/irfancoder/6rcuwbq0/289/) on how to use dropdown lifecycle hooks -->
+Check the [Demo](https://jsfiddle.net/irfancoder/0L1o23s8/110/) on how to use dropdown lifecycle hooks
 
 4. Handling Dropdown Behavior outside Usual Scope
 
 There will be times, you will find yourselves needing to trigger dropdown behaviors outside of the normal scope (eg. clicking a button). MonDropdown provides three (3) internal functions that can be accessed through Vue's `ref="..." & $refs`.
 
-The two functions are:
+The three (3) functions are:
 
 - toggleDropdown()
 - openDropdown()
 - closeDropdown()
 
-<!-- Check the [Demo](https://jsfiddle.net/irfancoder/6rcuwbq0/289/) on how to use dropdown's internal functions -->
-
-
-<!-- ROADMAP -->
-## Roadmap 
-
-TODO: 
-- Improve Base styling
-
+Check the [Demo](https://jsfiddle.net/irfancoder/0L1o23s8/110/) on how to use dropdown's internal functions
 
 <!-- LICENSE -->
 ## License
-
+<a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>
 
 <!-- CONTACT -->
 ## Contact

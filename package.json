@@ -1,7 +1,7 @@
 {
-  "name": "mon-dropdown",
+  "name": "@irfanismail/mon-dropdown",
   "version": "1.0.1",
-  "description": "",
+  "description": "MonDropdown a feature-rich dropdown Vue2 component. It focuses on bringing the best of Vue's features to achieve common & advanced behavior patterns while giving you the freedom to style the component to your liking. Built-to-work with TailwindCSS.",
 
   "main": "dist/mon-dropdown.ssr.js",
   "browser": "dist/mon-dropdown.esm.js",
@@ -13,6 +13,7 @@
     "src/**/*.vue"
   ],
   "sideEffects": false,
+  "license": "MIT",
 
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
